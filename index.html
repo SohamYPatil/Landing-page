@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- Linking style sheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- aos animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <!--###########################################**********Nav-bar**************#################################################-->
+  <nav class="navbar navbar-expand-lg bg-light-subtle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img
+          src="https://www.samsung.com/etc.clientlibs/samsung/clientlibs/consumer/global/clientlib-common/resources/images/gnb-desktop-120x32.png"
+          alt="..."></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Mobile
+            </a>
+            <div  style="width:1000px; " class="dropdown-menu">
+              <ul style="list-style-type: none;">
+                <li><a class="dropdown-item" href="#">Discover Mobiles</a>
+                <li><a class="dropdown-item" href="#">Smartphones</a></li>
+                <li><a class="dropdown-item" href="#">Tablet</a></li>
+                <li><a class="dropdown-item" href="#">Galaxy Book(Laptops)</a></li>
+                <li><a class="dropdown-item" href="#">Watches</a></li>
+                <li><a class="dropdown-item" href="#">Galaxy Buds</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                <li><a class="dropdown-item" href="#">One UI</a></li>
+                <li><a class="dropdown-item" href="#">App & Services</a></li>
+                <li><a class="dropdown-item" href="#">Samsung Student Advantages</a></li>
+              </ul>
+              <ul>
+
+                <div class="con-1 container  g-2  border-start border-dark p-3">
+                  <p class="fw-semibold ">New & Featured</p>
+
+                  <div class="row gy-4 text-center">
+                    <div class="col-md-4 col-4">
+                      <div class="  rounded-4" style="background-color: #f6f4f4;">
+                        <img src="https://images.samsung.com/is/image/samsung/assets/in/2307/gnb/GNB_B5_168x136_mo.png?$168_136_PNG$" alt="" class="img-fluid ">
+                        <p class="mt-2">Galaxy Z flip 5</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-4">
+                      <div class="  rounded-4 " style="background-color: #f6f4f4;">
+                        <img class=""
+                          src="https://images.samsung.com/is/image/samsung/assets/in/2307/gnb/GNB_Q5_168x136_mo.png?$168_136_PNG$"
+                          alt="" class="img-fluid">
+                        <p class="mt-2">Galaxy Z flod 5</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-4">
+                      <div class="  rounded-4 " style="background-color: #f6f4f4;">
+                        <img class=""
+                          src="https://images.samsung.com/is/image/samsung/assets/in/2307/gnb/Galaxy_Tab_S9_Series_GNB_168x136_MO.png?$168_136_PNG$"
+                          alt="" class="img-fluid">
+                        <p class="mt-2">Galaxy Tab S9 Series</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4  col-4">
+                      <div class="  rounded-4 " style="background-color: #f6f4f4;">
+                        <img class=""
+                          src="https://images.samsung.com/is/image/samsung/assets/in/2307/gnb/Watch_GNB_mo_168x136.png?$168_136_PNG$"
+                          alt="" class="img-fluid">
+                        <p class="mt-2">Galaxy Watch 6</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-4">
+                      <div class="  rounded-4 " style="background-color: #f6f4f4;">
+                        <img class=""
+                          src="https://images.samsung.com/is/image/samsung/assets/in/2302/gnb/galaxy-s23-ultra-mo-168x136.png?$168_136_PNG$"
+                          alt="">
+                        <p class="mt-2">Galaxy S23 Ultra</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-4">
+                      <div class="  rounded-4 " style="background-color: #f6f4f4;">
+                        <img class=""
+                          src="https://images.samsung.com/is/image/samsung/assets/in/gnb/galaxy-s23-lime-mo-168x136.png?$168_136_PNG$"
+                          alt="">
+                        <p class="mt-2">Galaxy S23 | S23+</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-4" >
+                      <div class="  rounded-4 " style="background-color: #f6f4f4;">
+                        <img class=""
+                          src="https://images.samsung.com/is/image/samsung/assets/in/gnb/Galaxy_A_GNB.png?$168_136_PNG$"
+                          alt="">
+                        <p class="mt-2">Galaxy A54 5G</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-4">
+                      <div class="  rounded-4 " style="background-color: #f6f4f4;">
+                        <img class=""
+                          src="https://images.samsung.com/is/image/samsung/assets/in/2208/gnb/galaxy-buds2-pro-mo-164x136.png?$168_136_PNG$"
+                          alt="">
+                        <p class="mt-2">Galaxy Bud2 Pro</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-4">
+                      <div class="  rounded-4 " style="background-color: #f6f4f4;">
+                        <img class=""
+                          src="https://images.samsung.com/is/image/samsung/assets/in/2302/gnb/Galaxybook3_ultra_gnb_mo_168x136.png?$168_136_PNG$"
+                          alt="">
+                        <p class="mt-2">Galaxy Book3</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              TV & AV
+            </a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a class="dropdown-item" href="#">Recommended</a></li>
+                <li><a class="dropdown-item" href="#">All About TV</a></li>
+                <li><a class="dropdown-item" href="#">Why Neo QLED</a></li>
+                <li><a class="dropdown-item" href="#">  Why Samsung OLED </a></li>
+                <li><a class="dropdown-item" href="#">Why Neo QLED for gaming</a></li>
+                <li><a class="dropdown-item" href="#">
+                    Virtual Product Experience
+
+
+                  </a></li>
+
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">All TVs</a></li>
+                <li><a class="dropdown-item" href="#">Neo QLED </a></li>
+                <li><a class="dropdown-item" href="#">OLED </a></li>
+                <li><a class="dropdown-item" href="#">QLED 4K</a></li>
+                <li><a class="dropdown-item" href="#">Crystal 4K UHD </a></li>
+                <li><a class="dropdown-item" href="#">The Frame </a></li>
+                <li><a class="dropdown-item" href="#">The Serif </a></li>
+                <li><a class="dropdown-item" href="#">TV Accessories</a></li>
+                <li><a class="dropdown-item" href="#">Discover TVs</a></li>
+                <li><a class="dropdown-item" href="#">QLED 8K</a></li>
+                <li><a class="dropdown-item" href="#">UHD 4K</a></li>
+                <li><a class="dropdown-item" href="#">Full HD/HD TVs</a></li>
+
+
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Projectors</a></li>
+                <li><a class="dropdown-item" href="#">The Premiere </a></li>
+                <li><a class="dropdown-item" href="#">The Freestyle </a></li>
+                <li><a class="dropdown-item" href="#">All Projectores</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Sound Devices</a></li>
+                <li><a class="dropdown-item" href="#">Discover Sound Devices</a></li>
+                <li><a class="dropdown-item" href="#">Sound Tower</a></li>
+                <li><a class="dropdown-item" href="#">Soundbar</a></li>
+                <li><a class="dropdown-item" href="#">All Sound Devices</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">TV by Size</a></li>
+                <li><a class="dropdown-item" href="#">2m 47cm (98") TVs</a></li>
+                <li><a class="dropdown-item" href="#">2m 16cm (85") TVs</a></li>
+                <li><a class="dropdown-item" href="#">1m 89cm (75") TVs</a></li>
+                <li><a class="dropdown-item" href="#">1m 63cm (65") TVs</a></li>
+                <li><a class="dropdown-item" href="#">1m 38cm (55") TVs</a></li>
+                <li><a class="dropdown-item" href="#">1m 25cm (50") TVs</a></li>
+                <li><a class="dropdown-item" href="#">1m 08cm (43") TVs</a></li>
+                <li><a class="dropdown-item" href="#">80cm (32") TVs</a></li>
+                <li><a class="dropdown-item" href="#">All TVs</a></li>
+                </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">TV by Resolution</a></li>
+                <li><a class="dropdown-item" href="#">QLED 8K</a></li>
+                <li><a class="dropdown-item" href="#">UHD 4K</a></li>
+                <li><a class="dropdown-item" href="#">Full HD/HD TVs</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home Appliances
+            </a>
+            <div class="dropdown-menu">
+              <!-- <ul>
+                <li><a class="dropdown-item" href="#">Recommended</a></li>
+                <li><a class="dropdown-item" href="#">Virtual Product Experience</a></li>
+              </ul> -->
+              <ul>
+                <li><a class="dropdown-item" href="#">Refrigerators </a></li>
+                <li><a class="dropdown-item" href="#">All Refrigerators </a></li>
+                <li><a class="dropdown-item" href="#">BESPOKE Refrigerators </a></li>
+                <li><a class="dropdown-item" href="#">French Door</a></li>
+                <li><a class="dropdown-item" href="#">Side by Side </a></li>
+                <li><a class="dropdown-item" href="#">Double Door</a></li>
+                <li><a class="dropdown-item" href="#">Single Door</a></li>
+                <li><a class="dropdown-item" href="#">BESPOKE Panels </a></li>
+                <li><a class="dropdown-item" href="#">	Discover Refrigerators </a></li>
+                
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Air Conditioners </a></li>
+                <li><a class="dropdown-item" href="#">All Air Conditioners </a></li>
+                <li><a class="dropdown-item" href="#">WindFree™ AC </a></li>
+                <li><a class="dropdown-item" href="#"> Convertible  5in1 AC</a></li>
+                <li><a class="dropdown-item" href="#">Wi-Fi Enabled  AC </a></li>
+                <li><a class="dropdown-item" href="#">Discover Air Conditioners </a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Washing Machine & Dryers</a></li>
+                <li><a class="dropdown-item" href="#"></a>All Washing Machines & Dryers</li>
+                <li><a class="dropdown-item" href="#">BESPOKE Washing Machine</a></li>
+                <li><a class="dropdown-item" href="#">Front Load</a></li>
+                <li><a class="dropdown-item" href="#">Top Load </a></li>
+                <li><a class="dropdown-item" href="#">Semi Automatic</a></li>
+                <li><a class="dropdown-item" href="#">Washer-Dryer </a></li>
+                <li><a class="dropdown-item" href="#">Dryers </a></li>
+                <li><a class="dropdown-item" href="#">Discover Washing MAchines & Dryers</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Vacuum Cleaners</a></li>
+                <li><a class="dropdown-item" href="#">All Vacuum Cleaners</a></li>
+                <li><a class="dropdown-item" href="#">BESPOKE Vacuum Cleaners</a></li>
+                <li><a class="dropdown-item" href="#">Jet Stick Vacuum Cleaners</a></li>
+                <li><a class="dropdown-item" href="#">Robot Vacuum Cleaners</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Cooking Appliances</a></li>
+                <li><a class="dropdown-item" href="#">All Cooking Appliances </a></li>
+                <li><a class="dropdown-item" href="#">BESPOKE Microwave Ovens</a></li>
+                <li><a class="dropdown-item" href="#">Microwaves Ovens </a></li>
+                <li><a class="dropdown-item" href="#">Discover Cooking APpliances </a></li>
+>
+              <ul>
+                <li><a class="dropdown-item" href="#">Diswashers </a></li>
+                <li><a class="dropdown-item" href="#">All Dishwashers</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Air Purifiers</a></li>
+                <li><a class="dropdown-item" href="#">All Air Purifiers</a></li>
+                <li><a class="dropdown-item" href="#">All Filters</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">App & Services</a></li>
+              </ul>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Laptops & Monitors
+            </a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a class="dropdown-item" href="#">Galaxy Book (Laptops)</a></li>
+                <li><a class="dropdown-item" href="#">Discover Galaxy Book</a></li>
+                <li><a class="dropdown-item" href="#">Galaxy Book3 Pro 360</a></li>
+                <li><a class="dropdown-item" href="#">Galaxy Book3 Pro </a></li>
+                <li><a class="dropdown-item" href="#">Galaxy Book3 360</a></li>
+                <li><a class="dropdown-item" href="#">Galaxy Book3</a></li>
+                <li><a class="dropdown-item" href="#">Galaxy Book3 Ultra</a></li>
+                <li><a class="dropdown-item" href="#">Window 11</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                <li><a class="dropdown-item" href="#">All Galaxy Book</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Galaxy Book By Size</a></li>
+                <li><a class="dropdown-item" href="#">38.1cm (15") - 40.62cm (16")</a></li>
+                <li><a class="dropdown-item" href="#">33.02cm (13") - 37.84cm (14.9")</a></li>
+                <li><a class="dropdown-item" href="#">ALl Galaxy Book By Size</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Monitors</a></li>
+                <li><a class="dropdown-item" href="#">All Monitors</a></li>
+                <li><a class="dropdown-item" href="#">Gaming Monitors</a></li>
+                <li><a class="dropdown-item" href="#">Smart Monitors</a></li>
+                <li><a class="dropdown-item" href="#">High Resolution Monitors</a></li>
+                <li><a class="dropdown-item" href="#">Curved Monitors</a></li>
+                <li><a class="dropdown-item" href="#">Flat Monitors</a></li>
+                <li><a class="dropdown-item" href="#">Business Monitors</a></li>
+                <li><a class="dropdown-item" href="#">Discover Monitors</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Memory & Storage</a></li>
+                <li><a class="dropdown-item" href="#">Discover Memory & Storage/a></li>
+                <li><a class="dropdown-item" href="#">NVMeSSD</a></li>
+                <li><a class="dropdown-item" href="#">STA SSD</a></li>
+                <li><a class="dropdown-item" href="#">Portable SSD</a></li>
+                <li><a class="dropdown-item" href="#">Memory Cards</a></li>
+                <li><a class="dropdown-item" href="#">USB Flash Drive</a></li>
+                <li><a class="dropdown-item" href="#">All Memory & Storage</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Display
+            </a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a class="dropdown-item" href="#">Monitors</a></li>
+                <li><a class="dropdown-item" href="#">Discover Monitors</a></li>
+                <li><a class="dropdown-item" href="#">For Business</a></li>
+                <li><a class="dropdown-item" href="#">All Monitors</a></li>
+                
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">For Business</a></li>
+                <li><a class="dropdown-item" href="#">Business Display Solution</a></li>
+                <li><a class="dropdown-item" href="#">Smart Signage</a></li>
+                <li><a class="dropdown-item" href="#">LED Signage</a></li>
+              </ul>
+
+            </div>
+          </li>
+        </ul>
+
+        <!-- <ul class="navbar-nav  mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Support
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Product Help</a></li>
+              <li><a class="dropdown-item" href="#">Repairs & Warranty</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+              <li><a class="dropdown-item" href="#">Additional Info</a></li>
+
+            </ul>
+          </li>
+        </ul> -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+
+    <!--###########################################**********Carousel**************#################################################-->
+    <div class="carousel-inner" data-bs-interval="10000">
+
+
+      <div class=" caption-1 carousel-item active">
+        <img
+          src="https://images.samsung.com/is/image/samsung/assets/in/offer/online/samsung-fest/b3c-Fest_page_1440x344-030124.jpg?$1440_N_JPG$"
+          class="d-block w-100" alt="image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Galaxy Unpacked</h5>
+          <p>Galaxy AI is coming<br>Grab benefits worth ₹ 5000*.</p>
+        </div>
+      </div>
+      <div class=" caption-2 carousel-item" data-bs-interval="2000">
+        <img
+          src="https://images.samsung.com/is/image/samsung/assets/in/offer/online/samsung-fest/Galaxy-Book3_1440x344.jpg?$1440_N_JPG$"
+          class="d-block w-100" alt="image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Galaxy Book3</h5>
+          <p>Starting ₹ 56990*</p>
+        </div>
+      </div>
+      <div class="caption-1 carousel-item">
+        <img
+          src="https://images.samsung.com/is/image/samsung/assets/in/offer/online/samsung-fest/S23-Series_1440x344.jpg?$1440_N_JPG$"
+          class="d-block w-100" alt="image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Galaxy S23 Series</h5>
+          <p>Starting ₹ 61999*</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--###########################################**********Content-1 **************#################################################-->
+
+  <div class="container-fluid text-center" style="padding: 50px 0px">
+    <p class="fw-bolder fs-1">Explore our latest products and innovations</p>
+  </div>
+
+
+
+  <!--###########################################**********  5 - rows  **************#################################################-->
+  <div class="container text-center">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-2 g-lg-3">
+      <div class="col ">
+        <div class="p-2 rounded" style="background-color: #f6f4f4" data-aos="fade-up" data-aos-duration="1000">
+          <div>
+            <img
+              src="https://images.samsung.com/is/image/samsung/assets/in/offer/online/samsung-fest/Galaxy-S23-Series_370x160.jpg?$370_160_JPG$"
+              alt="" class="img-fluid">
+            <p class="fs-3 fw-semibold mt-3">Galaxy S23 FE</p>
+            <br>
+            <br>
+            Starting ₹ 49999*
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-secondary">Buy now<i class="fa-solid fa-chevron-right"
+                style="margin-left: 9px;"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 rounded" style="background-color: #f6f4f4" data-aos="fade-up" data-aos-duration="1000">
+          <div>
+            <img
+              src="https://images.samsung.com/is/image/samsung/assets/in/offer/online/samsung-fest/TAB-S9-FE_370x160.jpg?$370_160_JPG$"
+              alt="" class="img-fluid">
+            <p class="fs-3 fw-semibold mt-3">Galaxy Tab S9 FE</p>
+            <br>
+            <br>
+            Starting ₹ 32999*
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-secondary">Buy now<i class="fa-solid fa-chevron-right"
+                style="margin-left: 9px;"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 rounded" style="background-color: #f6f4f4; " data-aos="fade-up" data-aos-duration="1000">
+          <div>
+            <img
+              src="https://images.samsung.com/is/image/samsung/assets/in/offer/online/samsung-fest/Book3-370x160.jpg?$370_160_JPG$"
+              alt="" class="img-fluid">
+            <p class="fs-3 fw-semibold mt-3">Galaxy Book3</p>
+            <br>
+            <br>
+            Starting ₹ 56990*
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-secondary">Buy now<i class="fa-solid fa-chevron-right"
+                style="margin-left: 9px;"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 rounded" style="background-color: #f6f4f4" data-aos="fade-up" data-aos-duration="1000">
+          <div>
+            <img
+              src="https://images.samsung.com/is/image/samsung/assets/in/offer/online/samsung-fest/151123-feature-tiles/RT37C4523S8_HL_Featured_tile_FGF_370x160.png?$370_160_PNG$"
+              alt="" class="img-fluid">
+            <p class="fs-3 fw-semibold ">322L Twin Cooling Plus</p>
+            <br>
+
+            Starting ₹ 2181*/month
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-secondary">Buy now<i class="fa-solid fa-chevron-right"
+                style="margin-left: 9px;"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 rounded-4" style="background-color: #f6f4f4" data-aos="fade-up" data-aos-duration="1000">
+          <div>
+            <img
+              src="https://images.samsung.com/is/image/samsung/assets/in/offer/online/samsung-fest/151123-feature-tiles/QA55QE1CAKLXL_Featured_tile_FGF_370x160.png?$370_160_PNG$"
+              alt="" class="img-fluid">
+            <p class="fs-3 fw-semibold ">Upgrade to QLED experience</p>
+
+            <br>
+            Starting ₹ 63490*
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-secondary">Buy now<i class="fa-solid fa-chevron-right"
+                style="margin-left: 9px;"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ###########################################*********Content - 2 bestseler**************#################################################
+
+  <div class="container-fluid text-center mt-3 p-2 border-top border-dark">
+    <p class="fw-bolder fs-1">Bestsellers</p>
+  </div> -->
+
+
+  <!--###########################################**********Best saler row and column**************#################################################-->
+  <!-- <div class="container-fluid border-top border-dark">
+
+
+    <div class="row">
+      <div class="col-sm-3 col-lg-4 d-none d-md-block ">
+        <div class="row p-2">
+          <div class=" col-lg-12 my-2 border-bottom border-dark p-2 ">
+            hemant
+          </div>
+          <div class="col-lg-12">
+            hemant
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-9 col-lg-8" style="background-color: red;">
+        <div class="row">
+          <div class="col-4 col-sm-6 col-lg-4">
+            Level 2: .col-8 .col-sm-6 .col-lg-4
+          </div>
+          <div class="col-4 col-sm-6 col-lg-4">
+            Level 3: .col-8 .col-sm-6 .col-lg-4
+          </div>
+          <div class="col-4 col-sm-6 col-lg-4">
+            Level 4: .col-4 .col-sm-6 .col-lg-4
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- aos animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+
+</html>

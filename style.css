@@ -1,0 +1,71 @@
+.nav-item a{
+    font-size: large !important;
+    
+}
+
+.caption-1 h5{
+    font-size: 30px;color: bisque;
+}
+
+.caption-1 p{
+    font-size: 20px
+}
+
+.caption-2 h5{
+    font-size: 30px;;
+    color: black;
+}
+
+.caption-2 p{
+    font-size: 20px;
+    color: black;
+}
+
+.dropdown-menu ul{
+    list-style: none;
+    padding:0;
+}
+
+.dropdown-menu li:first-child a{
+    font-weight: 500;
+    font-size: 1.2em;
+    color: black;
+}
+.dropdown-menu li a{
+    font-size: medium !important;
+    padding:.0.5em 1em;
+}
+
+.con-1 img{
+    height: 100px;
+    width: 125px;
+    margin-left: 15px;
+    
+}
+
+.test{
+    width:1000px;
+}
+
+/* .dropdown-menu.show{
+    display: flex !important;
+} */
+ @media  screen and (min-width:993px) {
+    .drop:hover .dropdown-menu{
+        display: flex !important;
+    }
+    .dropdown-menu.show{
+        display: flex !important;
+    }
+
+    
+} 
+
+/* @media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    .test{
+        width: 200px;
+    }
+  } */
